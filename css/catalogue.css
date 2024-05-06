@@ -1,0 +1,55 @@
+section{
+    width: 60%;
+    /* border: 1px solid orangered; */
+    margin-left: 7%;
+    margin-top: 10%;
+    z-index: 2;
+}
+.nav{
+    display: flex;
+    margin-bottom: 20px;
+}
+.nav div{
+    /* border: 1px solid blue; */
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.nav li{
+    list-style-type: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.nav div:first-child :hover{
+    background-color: #215CEA;
+    color: white;
+    cursor: pointer;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.clothes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 425px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.clothes div{
+    width: 30%;
+    /* background-color: aqua */;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.clothes a{
+    color: #095D8C;
+    text-decoration: none;
+    font-size: small;
+    padding: 12px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Document</title>
+    <style>
+        .panier{
+            /* border: 1px solid black; */
+            width: 55%;
+            margin-top: 8%;
+            margin-left: 8%;
+            height: fit-content;
+        }
+        .panier h3{
+            font-size: 30px;
+            font-weight: bold;
+            color: #095D8C;
+        }
+        .article{
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            max-height: 390px;
+        }
+        .article div{
+            display: flex;
+            justify-content: space-between;
+         /*    border: 1px solid green; */
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="elipse-1"></div>
+    <div id="elipse-2"></div>
+    <div id="elipse-3"></div>
+    <header>
+        <div>
+            <h1>
+                <span>DuBuy</span>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="li">Acceuil</li>
+                    <li class="li">Catalogue</li>
+                    <li class="li">A propos</li>
+                    <li class="li">Se connecter</li>
+                    <li class="li" id="signBtn">S'inscrire</li>
+                    <li><a href=""><img src="../image/panier.png" alt="" width="30px" height="30px"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="panier">
+        <h3>Mes achats</h3>
+        <div class="article">
+            <div>
+                <div><img src="../image/Rectangle 22.png" height="140px" alt=""></div>
+                <p style="width: 30%;height: fit-content;margin:auto;">
+                    <span style="font-weight: bold;font-size: large;">Jeans hvqgdjdc</span> <br>
+                    <span style="">Prix 35$</span>
+                </p>
+                <p style="width: 20%;height: fit-content;display: flex;justify-content: space-between;margin: auto;">
+                    <label style="margin-top: auto;" for="">Qte</label>
+                    <input style="width: 50%;height: fit-content;padding: 5px;text-align: center;" min="1" type="number">
+                </p>
+            </div>
+
+            <div>
+                <div><img src="../image/Rectangle 22.png" height="140px" alt=""></div>
+                <p style="width: 30%;height: fit-content;margin:auto;">
+                    <span style="font-weight: bold;font-size: large;">Jeans hvqgdjdc</span> <br>
+                    <span style="">Prix 35$</span>
+                </p>
+                <p style="width: 20%;height: fit-content;display: flex;justify-content: space-between;margin: auto;">
+                    <label style="margin-top: auto;" for="">Qte</label>
+                    <input style="width: 50%;height: fit-content;padding: 5px;text-align: center;" min="1" type="number">
+                </p>
+            </div>
+        </div>
+        
+
+        <p style="text-align: right;font-size: 20px;">Total general 100$</p>
+        <button class="button">Valider</button>
+    </div>
+
+</body>
+</html>

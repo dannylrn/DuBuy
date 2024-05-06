@@ -1,0 +1,16 @@
+section{
+    /*  border: 1px solid red; */
+     position: absolute;
+     margin-top: 5%;
+     width: 90%;
+     display: flex;
+     z-index: 2;
+     margin-left: 20px;
+ }
+ article p{
+     margin-top: 170px;
+     /* border: 1px solid orange; */
+     display: flex;
+     flex-direction: column;
+     height: 130px;
+ }

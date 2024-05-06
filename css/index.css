@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#elipse-1{
+    position: fixed;
+    top: -71px;
+    left: -84px;
+    width: 204px;
+    height: 194px;
+    border-radius: 50%;
+    background-color: #F7ABB6;
+    z-index: 1;
+}
+#elipse-2{
+    position: fixed;
+    top: 68px;
+    right: 100px;
+    width: 158px;
+    height: 148px;
+    border-radius: 50%;
+    background-color: #FCC8A0;
+    z-index: 1;
+}
+#elipse-3{
+    position: fixed;
+    bottom: -140px;
+    right: -120px;
+    width: 360px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #C7B9E1;
+    z-index: 1;
+}
+header {
+    position: fixed;
+    display: flex;
+    top: 10;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid black; */
+    z-index: 2;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 85%;
+    /* margin-left: 7.5%; */
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.li{
+    padding: 3.5px 7px 3.5px 7px;
+    height: fit-content;
+    margin-top: auto;
+}
+.li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#signBtn{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.button {
+    height: 35px;
+    background-color: #FB0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 23%;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 25px;
+}
