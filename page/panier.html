@@ -4,35 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/panier.css">
     <title>Document</title>
-    <style>
-        .panier{
-            /* border: 1px solid black; */
-            width: 55%;
-            margin-top: 8%;
-            margin-left: 8%;
-            height: fit-content;
-        }
-        .panier h3{
-            font-size: 30px;
-            font-weight: bold;
-            color: #095D8C;
-        }
-        .article{
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            overflow-x: hidden;
-            overflow-y: scroll;
-            max-height: 390px;
-        }
-        .article div{
-            display: flex;
-            justify-content: space-between;
-         /*    border: 1px solid green; */
-            margin-bottom: 8px;
-        }
-    </style>
 </head>
 <body>
     <div id="elipse-1"></div>
@@ -45,12 +18,12 @@
             </h1>
             <nav>
                 <ul>
-                    <li class="li">Acceuil</li>
-                    <li class="li">Catalogue</li>
-                    <li class="li">A propos</li>
-                    <li class="li">Se connecter</li>
-                    <li class="li" id="signBtn">S'inscrire</li>
-                    <li><a href=""><img src="../image/panier.png" alt="" width="30px" height="30px"></a></li>
+                    <li class="li"><a class="li" href="../acceuil.html">Acceuil</a></li>
+                    <li class="li"><a class="li" href="catalogue.html">Catalogue</a></li>
+                    <li class="li"><a class="li" href="about.html">A propos</a></li>
+                    <li class="li"><a class="li" href="login.html">Se connecter</a></li>
+                    <li class="li"><a class="li" id="signBtn" href="signin.html">S'inscrire</a></li>
+                    <li><a href="panier.html"><img src="../image/panier.png" alt="" width="30px" height="30px"></a></li>
                 </ul>
             </nav>
         </div>

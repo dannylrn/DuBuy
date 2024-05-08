@@ -1,0 +1,26 @@
+.panier{
+    /* border: 1px solid black; */
+    width: 55%;
+    margin-top: 8%;
+    margin-left: 8%;
+    height: fit-content;
+}
+.panier h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #095D8C;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 390px;
+}
+.article div{
+    display: flex;
+    justify-content: space-between;
+ /*    border: 1px solid green; */
+    margin-bottom: 8px;
+}
